@@ -1,0 +1,1 @@
+a.onclick=()=>{if(!i.value.trim())return;const li=document.createElement('li');li.textContent='✔ '+i.value;li.onclick=()=>li.remove();l.appendChild(li);i.value='';};
