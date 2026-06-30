@@ -1,0 +1,1 @@
+async function buscar(){const r=await fetch('https://viacep.com.br/ws/01001000/json/');const d=await r.json();console.log(`Endereço: ${d.logradouro}, ${d.localidade}/${d.uf}`);}buscar();

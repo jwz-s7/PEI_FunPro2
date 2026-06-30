@@ -1,0 +1,1 @@
+const lista=[20,80,55,10,130];const f=lista.filter(v=>v>50);console.log('Lista original:',lista);console.log('Acima de R$50:',f);
