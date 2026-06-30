@@ -1,0 +1,1 @@
+b.onclick=()=>{document.body.style.background='lightblue';t.textContent='Tudo foi alterado com sucesso!';};
